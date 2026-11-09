@@ -121,6 +121,8 @@ func _physics_process(dt: float) -> void:
 		respawn()
 	if is_on_floor() and Vector2(position.x - GOAL.x, position.z - GOAL.z).length() < 1.25 and absf(position.y - 0.9 - GOAL.y) < 0.4:
 		completed = true
+		velocity = Vector3.ZERO
+		set_playing(false)
 	_update_camera()
 
 func _update_camera() -> void:

@@ -10,7 +10,9 @@ A fox, wings and a small woodland course, built in Godot. This repository is the
 2. Import `project.godot` and run the main scene.
 3. Select **Start exploring**. Move with WASD or arrow keys, turn with Q/E or mouse drag, press Space to jump and hold it to climb, then release to glide. X requests dive, V changes camera, R resets, and Escape toggles the menu.
 
-The controls above describe implementation, not a claim that every ordinary-input journey has passed. Dive and complete-course acceptance remain open.
+Reaching the arch stops the solo run and shows its elapsed time and fall count. **Run again** starts a fresh run. Pause time is excluded. These are local practice results, never authoritative multiplayer scores.
+
+The controls above describe implementation, not a claim that every ordinary-input journey has passed. Dive and complete-course browser acceptance remain open.
 
 ## Test and export
 

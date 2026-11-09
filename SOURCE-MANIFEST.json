@@ -1,7 +1,7 @@
 {
   "source_commit": "67a6c2491ce2c1c0a46a2d266ee2deadbfaaebeb",
-  "snapshot_kind": "publication-safe export; original local history retained separately",
-  "runtime_behavior_changes": false,
+  "snapshot_kind": "public development snapshot; solo finish-loop candidate",
+  "runtime_behavior_changes": true,
   "files": [
     {
       "path": ".gitattributes",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3406,
-      "sha256": "4804f6c1a5bf228f1cfd2fdb0cb9f5c1f8ae399465ca124863432bea54c69993",
+      "bytes": 3629,
+      "sha256": "66cefcda3c38dc2018073cad23468f4f5c1aef9f8a30748f7e7b73e9bcca12bb",
       "unchanged_from_source": false
     },
     {
@@ -83,14 +83,14 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 3171,
-      "sha256": "e2e8c255bffc6a529cd8b397ede2e4b09b184689609f61f75eefc14c35ea1b43",
+      "bytes": 4217,
+      "sha256": "c64474dfa8f0b60edeeeeda8d3b5e7145a31fce79f7ce6aafbb2c13179800eaa",
       "unchanged_from_source": false
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1294,
-      "sha256": "835da5d73abd503f3beff26cc6b0c8f1a344c3a74675da1fcd9d58468e1aa246",
+      "bytes": 2475,
+      "sha256": "cc3dab3190c18cddf3b0efaba976b80c17d23ae0f4b361aef45cf8e86c8617ee",
       "unchanged_from_source": false
     },
     {
@@ -137,9 +137,9 @@
     },
     {
       "path": "scripts/main.gd",
-      "bytes": 11258,
-      "sha256": "4e898cf8c53bdbf3ac529de601b505f04f3819ccaf1e34c3e907cdb46a76574b",
-      "unchanged_from_source": true
+      "bytes": 12159,
+      "sha256": "dbedbbb68e3f2d7acdc28014679ed21b0ec2ed97823c46d81f66006bb3d02f37",
+      "unchanged_from_source": false
     },
     {
       "path": "scripts/main.gd.uid",
@@ -161,9 +161,9 @@
     },
     {
       "path": "scripts/player.gd",
-      "bytes": 4656,
-      "sha256": "1ff968173737911e40742d5a95ec2011a9be6afff0d6c0fd7c495d533a54901a",
-      "unchanged_from_source": true
+      "bytes": 4705,
+      "sha256": "f0e73e13e1484193a517924fe19d4a382be2837f0396533301ccc6f44e225c8e",
+      "unchanged_from_source": false
     },
     {
       "path": "scripts/player.gd.uid",
@@ -173,9 +173,9 @@
     },
     {
       "path": "tests/smoke.gd",
-      "bytes": 3589,
-      "sha256": "b6a58368cd88a0e6b15fbe623afe46e85d77a82c4b0f62a5933e5cf455ee4f6b",
-      "unchanged_from_source": true
+      "bytes": 5956,
+      "sha256": "78fce965573738fea4fe3c32a3f4cfef53539f84a408d1c81d79c1c2dd3816af",
+      "unchanged_from_source": false
     },
     {
       "path": "tests/smoke.gd.uid",
@@ -225,5 +225,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "unchanged_from_source": true
     }
-  ]
+  ],
+  "base_publication_commit": "a67ef77d4e9399d30171baded3cb94a58ae01dd9"
 }

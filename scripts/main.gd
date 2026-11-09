@@ -11,6 +11,9 @@ var network_status: Label
 var metrics: Label
 var menu: PanelContainer
 var start_button: Button
+var menu_title: Label
+var menu_description: Label
+var result_shown := false
 var room_field: LineEdit
 var dragging := false
 var ui_clock := 0.0
@@ -164,8 +167,10 @@ func _setup_ui() -> void:
 	var menustack := VBoxContainer.new()
 	menustack.add_theme_constant_override("separation", 12)
 	menu.add_child(menustack)
-	menustack.add_child(_label("A small woodland. A familiar fox.", 23))
-	menustack.add_child(_label("Walk north along the stones, turn right up the stairs,\ncross the root bridge and find the turquoise arch.\nJump, climb, then release Space to glide.", 17))
+	menu_title = _label("A small woodland. A familiar fox.", 23)
+	menustack.add_child(menu_title)
+	menu_description = _label("Walk north along the stones, turn right up the stairs,\ncross the root bridge and find the turquoise arch.\nJump, climb, then release Space to glide.", 17)
+	menustack.add_child(menu_description)
 	start_button = _button("Start exploring", _start)
 	menustack.add_child(start_button)
 	var controls := HBoxContainer.new()
@@ -195,6 +200,8 @@ func _layout_ui() -> void:
 	menu.position = (size - menu.size) / 2
 
 func _start() -> void:
+	if player.completed:
+		_reset()
 	menu.hide()
 	player.set_playing(true)
 	start_button.text = "Resume exploring"
@@ -207,6 +214,10 @@ func _pause() -> void:
 
 func _reset() -> void:
 	player.reset_run()
+	result_shown = false
+	menu_title.text = "A small woodland. A familiar fox."
+	menu_description.text = "Walk north along the stones, turn right up the stairs,\ncross the root bridge and find the turquoise arch.\nJump, climb, then release Space to glide."
+	start_button.text = "Start exploring"
 	status_text = "Ready · reach the turquoise arch"
 	_pause()
 
@@ -231,6 +242,13 @@ func _unhandled_input(event: InputEvent) -> void:
 
 func _process(dt: float) -> void:
 	runtime_frames += 1
+	if player.completed and not result_shown:
+		result_shown = true
+		dragging = false
+		menu_title.text = "Woodland complete!"
+		menu_description.text = "You reached the turquoise arch.\nTime: %.2f seconds    Falls: %d\nA local solo run, not an online score." % [player.elapsed, player.falls]
+		start_button.text = "Run again"
+		menu.show()
 	for id in peers:
 		var peer: Dictionary = peers[id]
 		peer.node.position = peer.node.position.lerp(peer.target, minf(1.0, dt * 14))
@@ -243,6 +261,8 @@ func _process(dt: float) -> void:
 	var state := "ON FOOT" if player.is_on_floor() else ("GLIDING" if player.gliding else "DIVING")
 	if player.velocity.y > 0.2 and not player.is_on_floor():
 		state = "CLIMBING"
+	if not player.playing:
+		state = "PAUSED" if player.elapsed > 0 else "READY"
 	status.text = "Arch reached!  R to restart" if player.completed else "%s  ·  altitude %.1fm  ·  falls %s" % [state, player.position.y - 0.9, player.falls]
 	metrics.text = "%s FPS (this device only)  ·  %s draws  ·  %s triangles  ·  peers %s/7" % [Engine.get_frames_per_second(), RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME), RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME), peers.size()]
 	if OS.has_feature("web"):
