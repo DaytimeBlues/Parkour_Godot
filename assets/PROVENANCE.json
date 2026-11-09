@@ -1,0 +1,29 @@
+{
+  "source_commit": "1a5c414d06556fd8d180e5f5fa86fd6fb7c84a46",
+  "files": [
+    {
+      "file": "assets/fox.glb",
+      "source": "public/models/appearance/avatar-fox.glb",
+      "sha256": "3b96a4a4e1038c3d413a9938a7cb4a6e1ed6721f7234a1c5bc051239ff43eb23",
+      "bytes": 252236,
+      "ownership": "Project-owned geometry from the original Parkour project; published in this repository at the project owner's request. No new licence grant."
+    },
+    {
+      "file": "assets/angel.glb",
+      "source": "public/models/appearance/wings-angel-woodland-v5.glb",
+      "sha256": "d65a87e6625f96c5a15011ef13f88fa2fb432ccc6247118a97a80e93380cabaf",
+      "bytes": 36364,
+      "ownership": "Project-owned geometry from the original Parkour project; published in this repository at the project owner's request. No new licence grant."
+    },
+    {
+      "file": "assets/woodland.glb",
+      "source": "assets/prototype-source/canopy-crowns-v3/canopy-crowns-v3-packed.glb",
+      "sha256": "fc370e6478e984579b1f1567839968fe62ccb87c405fdc2ce7678459ab8ae8c5",
+      "bytes": 705144,
+      "ownership": "Project-owned geometry from the original Parkour project; published in this repository at the project owner's request. No new licence grant."
+    }
+  ],
+  "collision_contract": "Source name rules copied from src/dev/flight-prototype-map.ts; exact float32 positions, 86 parts; Godot backend is NOT Rapier parity.",
+  "originals_preserved": true,
+  "publication_source": "Woodland beta source 67a6c2491ce2c1c0a46a2d266ee2deadbfaaebeb; original files remain unchanged."
+}

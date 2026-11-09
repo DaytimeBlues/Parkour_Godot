@@ -1,0 +1,229 @@
+{
+  "source_commit": "67a6c2491ce2c1c0a46a2d266ee2deadbfaaebeb",
+  "snapshot_kind": "publication-safe export; original local history retained separately",
+  "runtime_behavior_changes": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "unchanged_from_source": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 131,
+      "sha256": "84993ec6f681670b113aa7200b3bde2d7dfc9cfc52cbf27c1ea0b593ad2e1b7c",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 3406,
+      "sha256": "4804f6c1a5bf228f1cfd2fdb0cb9f5c1f8ae399465ca124863432bea54c69993",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "assets/PROVENANCE.json",
+      "bytes": 1594,
+      "sha256": "25732e73058c2f923e353c29c70777b2cb1c4c6adcc176a8b90b8d200ce78190",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "assets/angel.glb",
+      "bytes": 36364,
+      "sha256": "d65a87e6625f96c5a15011ef13f88fa2fb432ccc6247118a97a80e93380cabaf",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/angel.glb.import",
+      "bytes": 1188,
+      "sha256": "b06eb329f795cfc73072deccefcef52d9af00e0bbb71120dfb3815aae60ae449",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/collision.json",
+      "bytes": 883309,
+      "sha256": "bb4642c47ee78102816b34ec758a1e40fcf1181aae93091af215df74b4bcdba5",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/fox.glb",
+      "bytes": 252236,
+      "sha256": "3b96a4a4e1038c3d413a9938a7cb4a6e1ed6721f7234a1c5bc051239ff43eb23",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/fox.glb.import",
+      "bytes": 1183,
+      "sha256": "e1c2b4dea1869393ebaca9e08147d50e958f35db8efc3c40f1e2b6d693438257",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/woodland.glb",
+      "bytes": 705144,
+      "sha256": "fc370e6478e984579b1f1567839968fe62ccb87c405fdc2ce7678459ab8ae8c5",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "assets/woodland.glb.import",
+      "bytes": 1198,
+      "sha256": "32b142d4833d2be0143adf4de54f5d206e97adb6855843e1f43b0eda8701c227",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "docs/PUBLICATION.md",
+      "bytes": 1872,
+      "sha256": "8c711a7782c5f62815e05309f24798bd9ddec544bf453362ac5ec739a99c4b95",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 2355,
+      "sha256": "82cecdffbfb3dba50e9ab87c3a6b9b735ef1773988a8fe7f11fbac82caafc6ad",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 3171,
+      "sha256": "e2e8c255bffc6a529cd8b397ede2e4b09b184689609f61f75eefc14c35ea1b43",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1294,
+      "sha256": "835da5d73abd503f3beff26cc6b0c8f1a344c3a74675da1fcd9d58468e1aa246",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "evidence/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_source": false
+    },
+    {
+      "path": "export_presets.cfg",
+      "bytes": 862,
+      "sha256": "b50ed75211587fd3f140ed27fe194a077147797c2a5a830681698df619df3cf1",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "main.tscn",
+      "bytes": 178,
+      "sha256": "9dbe899d8b99d37f92ad8f6e4eecea77a182f1d4f3cd59ad00e6528fbb9b1e53",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "project.godot",
+      "bytes": 937,
+      "sha256": "9dfec1439f5838f1540a27955d62153da1d9a07388ca77258b915fb0b75b1b86",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 20,
+      "sha256": "f65e03e75e09d8e2aa93c329a33e084cbb81e7f9cf97305af65d0c77bbf71884",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/avatar.gd",
+      "bytes": 2343,
+      "sha256": "6c706c0203f9ed8bc18a215032048f70d85de52deb7883fd28850e1025ca1714",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/avatar.gd.uid",
+      "bytes": 21,
+      "sha256": "255ad437543ffad799a19f2156a04d33525ec15cf33bb4adca478faaf3191b41",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/main.gd",
+      "bytes": 11258,
+      "sha256": "4e898cf8c53bdbf3ac529de601b505f04f3819ccaf1e34c3e907cdb46a76574b",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/main.gd.uid",
+      "bytes": 21,
+      "sha256": "9f5ccc786066145a1a170c7e509bf21b56a8eb97def7f6138079b14123ba5b85",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/network.gd",
+      "bytes": 3284,
+      "sha256": "909cc71323748b951bad8d6c7bb89ae40bc51e940477ae7e7fc7dc766ea34dd8",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/network.gd.uid",
+      "bytes": 21,
+      "sha256": "c0af4a6aaf56e18190f06f0faf7ed16463931edeb1e16e7be3a0534397802444",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/player.gd",
+      "bytes": 4656,
+      "sha256": "1ff968173737911e40742d5a95ec2011a9be6afff0d6c0fd7c495d533a54901a",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "scripts/player.gd.uid",
+      "bytes": 21,
+      "sha256": "787806e09b568efd75d4d841b28bdc92b7adcd502364c4298fa25fe023f58e57",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tests/smoke.gd",
+      "bytes": 3589,
+      "sha256": "b6a58368cd88a0e6b15fbe623afe46e85d77a82c4b0f62a5933e5cf455ee4f6b",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tests/smoke.gd.uid",
+      "bytes": 21,
+      "sha256": "f17696163906efd6ac0a71a4721eed4fd73c5a74956fc9a0d49cf56660c6753e",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tests/test_relay.py",
+      "bytes": 2450,
+      "sha256": "4b64e3120dc72566e37425d4c79a9eb5c1adcf594a58da3c4c0fd7339eb240d5",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tests/test_strict_godot_check.py",
+      "bytes": 2458,
+      "sha256": "a83fde5ace02e9baba861a1ce3c67679196c8d9c0e0ce6d1a6fd25987db7dbd1",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tests/test_web_export_preset.py",
+      "bytes": 851,
+      "sha256": "cb71ce66053a2e80ed9e2c8089f87078313bf48cbc3b6bf6d5f0867eb90f0c8c",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tools/relay.py",
+      "bytes": 3504,
+      "sha256": "d2b0c3fffb1016d03c2bc9e994cd22c468fb4292e28004c3825ad0c2b94e2040",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tools/serve.py",
+      "bytes": 1919,
+      "sha256": "30e9ccf77e1d6ffc77323dac45c268fb7c46c513aa1fe5908d4d2dbb91615a6f",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "tools/strict_godot_check.py",
+      "bytes": 4703,
+      "sha256": "e88b4461e7d95efd93167b71a2707a9d9d0c9d12cae011c310d90a2b194f6108",
+      "unchanged_from_source": true
+    },
+    {
+      "path": "web/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_source": true
+    }
+  ]
+}
