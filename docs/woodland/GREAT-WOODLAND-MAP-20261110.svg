@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000">
+<rect width="1100" height="1000" fill="#f7f8f3"/>
+<style>text{font-family:Arial,sans-serif;fill:#18313a} .small{font-size:13px} .label{font-size:16px;font-weight:bold}</style>
+<text x="70" y="35" font-size="27" font-weight="bold">THE GREAT WOODLAND - MAP PROPOSAL</text>
+<text x="70" y="61" font-size="14">1,024 x 1,024 m | eight zones | routes schematic, not measured traversal geometry</text>
+<rect x="70" y="90" width="820" height="820" fill="#e8efdc" stroke="#829579"/>
+<path d="M275.0,90 V910" stroke="#bdcdb1"/>
+<path d="M70,295.0 H890" stroke="#bdcdb1"/>
+<path d="M480.0,90 V910" stroke="#bdcdb1"/>
+<path d="M70,500.0 H890" stroke="#bdcdb1"/>
+<path d="M685.0,90 V910" stroke="#bdcdb1"/>
+<path d="M70,705.0 H890" stroke="#bdcdb1"/>
+<polyline points="824.3359375,203.7109375 792.3046875,363.8671875 776.2890625,520.01953125 720.234375,644.140625 576.09375,716.2109375 407.9296875,740.234375 327.8515625,860.3515625" fill="none" stroke="#80b9bd" stroke-width="16"/>
+<polyline points="215.7421875,764.2578125 231.7578125,568.06640625 443.96484375,716.2109375 544.0625,508.0078125 215.7421875,764.2578125" fill="none" stroke="#50772c" stroke-width="5" stroke-dasharray=""/>
+<polyline points="544.0625,508.0078125 343.8671875,391.89453125 484.00390625,207.71484375 688.203125,295.80078125 544.0625,508.0078125" fill="none" stroke="#a06a16" stroke-width="5" stroke-dasharray="12 7"/>
+<polyline points="544.0625,508.0078125 688.203125,295.80078125 764.27734375,580.078125 443.96484375,716.2109375 544.0625,508.0078125" fill="none" stroke="#355f9a" stroke-width="5" stroke-dasharray="3 7"/>
+<circle cx="215.7421875" cy="764.2578125" r="20" fill="#214c3e"/>
+<text x="215.7421875" y="769.2578125" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z1</text>
+<text x="242.7421875" y="759.2578125" class="label">Sunlit Clearing</text>
+<text x="242.7421875" y="779.2578125" class="small">24-36 m</text>
+<circle cx="231.7578125" cy="568.06640625" r="20" fill="#214c3e"/>
+<text x="231.7578125" y="573.06640625" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z2</text>
+<text x="258.7578125" y="563.06640625" class="label">Mosswood Hollow</text>
+<text x="258.7578125" y="583.06640625" class="small">28-50 m</text>
+<circle cx="443.96484375" cy="716.2109375" r="20" fill="#214c3e"/>
+<text x="443.96484375" y="721.2109375" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z3</text>
+<text x="470.96484375" y="711.2109375" class="label">Brookbend</text>
+<text x="470.96484375" y="731.2109375" class="small">18-40 m</text>
+<circle cx="343.8671875" cy="391.89453125" r="20" fill="#214c3e"/>
+<text x="343.8671875" y="396.89453125" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z4</text>
+<text x="370.8671875" y="386.89453125" class="label">Rootbound Ruins</text>
+<text x="370.8671875" y="406.89453125" class="small">48-80 m</text>
+<circle cx="544.0625" cy="508.0078125" r="20" fill="#214c3e"/>
+<text x="544.0625" y="513.0078125" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z5</text>
+<text x="571.0625" y="503.0078125" class="label">Heartwood Crossing</text>
+<text x="571.0625" y="523.0078125" class="small">34-64 m</text>
+<circle cx="688.203125" cy="295.80078125" r="20" fill="#214c3e"/>
+<text x="688.203125" y="300.80078125" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z6</text>
+<text x="715.203125" y="290.80078125" class="label">Canopy Ridge</text>
+<text x="715.203125" y="310.80078125" class="small">72-110 m</text>
+<circle cx="764.27734375" cy="580.078125" r="20" fill="#214c3e"/>
+<text x="764.27734375" y="585.078125" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z7</text>
+<text x="791.27734375" y="575.078125" class="label">River Cliffs</text>
+<text x="791.27734375" y="595.078125" class="small">22-96 m</text>
+<circle cx="484.00390625" cy="207.71484375" r="20" fill="#214c3e"/>
+<text x="484.00390625" y="212.71484375" text-anchor="middle" style="fill:white;font-size:14px;font-weight:bold">Z8</text>
+<text x="511.00390625" y="202.71484375" class="label">Windcrown</text>
+<text x="511.00390625" y="222.71484375" class="small">104-128 m</text>
+<text x="930" y="115" font-size="20" font-weight="bold">N / -Z</text>
+<text x="930" y="151" class="small">256 m grid</text>
+<text x="930" y="205" class="small">Solid: Floor</text>
+<text x="930" y="232" class="small">Dashed: Canopy</text>
+<text x="930" y="259" class="small">Dotted: River</text>
+<text x="930" y="309" class="small">Expedition:</text>
+<text x="930" y="331" class="small">1-2-4-8-6-7</text>
+<text x="930" y="353" class="small">3-5-1</text>
+<text x="70" y="952" class="small">Warm foliage, pale landings, moss/roots. Keep the 64 m outer buffer and a grounded recovery route.</text>
+<text x="70" y="977" class="small">Planning only | 10 November 2026 | No build, source replacement or deployment</text>
+</svg>

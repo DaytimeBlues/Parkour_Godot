@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-10",
+  "status": "public documentation copy; no runtime changes",
+  "source_plan_sha256": "24939c504fc1b5773311bde9498a15df1b3ff47854da90eebeca55b0facab85f",
+  "files": [
+    {
+      "name": "ASSET-REGISTER-20261110.json",
+      "bytes": 30438,
+      "sha256": "879781bfc8eba61214e9996da7c68acc4bd34fdf62d7157d6c8cdb34d46803e4"
+    },
+    {
+      "name": "GREAT-WOODLAND-MAP-20261110.svg",
+      "bytes": 5022,
+      "sha256": "c84989bddd8b3c5a285e3898be12bb2acf821bf53aa8c220728ccdb74f49fe76"
+    },
+    {
+      "name": "GREAT-WOODLAND-MAP-PLAN-20261110.md",
+      "bytes": 52476,
+      "sha256": "4b482e59c3f9f610b1d442537ab67f8160e3b3055dbb17ead47be95aa6fc1852"
+    },
+    {
+      "name": "MAP-DATA-20261110.json",
+      "bytes": 4816,
+      "sha256": "6b57ccdd92b7bbfb2506168e9537a3c1f0a479c23760da0b85a415d3416c55d4"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1465,
+      "sha256": "4b37a78762b95cc8437e035c24de99363557ea490d2ecdf225f48f5c269a1f86"
+    }
+  ]
+}

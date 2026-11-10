@@ -1,0 +1,140 @@
+{
+  "world": {
+    "width_m": 1024,
+    "depth_m": 1024,
+    "terrain_region_m": 256,
+    "region_count": 16,
+    "prop_sector_m": 128,
+    "prop_sector_count": 64,
+    "instancer_cell_m": 32,
+    "proposed_height_m": [
+      18,
+      128
+    ],
+    "status": "proposal"
+  },
+  "zones": [
+    {
+      "id": "Z1",
+      "name": "Sunlit Clearing",
+      "x": -330,
+      "z": 330,
+      "elevation": "24-36 m",
+      "area": "220 x 190 m",
+      "role": "Spawn, route choice, practice and shared finish. Preserve the existing woodland as a compact home-course exhibit, rather than stretching its mesh.",
+      "beats": "Grounded start; small ramp, jump, climb and safe glide practice; finish plinth.",
+      "assets": "A01, A10-A16, A29, A46-A49, A58-A65"
+    },
+    {
+      "id": "Z2",
+      "name": "Mosswood Hollow",
+      "x": -310,
+      "z": 85,
+      "elevation": "28-50 m",
+      "area": "230 x 260 m",
+      "role": "Wide forest-floor paths, readable roots and low stone shelves. Beginner route and primary reference match.",
+      "beats": "Three short jump choices; root bridge; walkable recovery trail beneath.",
+      "assets": "A10-A16, A20-A23, A29-A35, A39-A41"
+    },
+    {
+      "id": "Z3",
+      "name": "Brookbend",
+      "x": -45,
+      "z": 270,
+      "elevation": "18-40 m",
+      "area": "300 x 200 m",
+      "role": "Shallow river, stepping stones, broad banks and a low bridge. Connect river return to the hub.",
+      "beats": "Bank-to-bank crossing; optional stepping stones; low water recovery.",
+      "assets": "A05-A07, A13, A17-A19, A27, A36-A45"
+    },
+    {
+      "id": "Z4",
+      "name": "Rootbound Ruins",
+      "x": -170,
+      "z": -135,
+      "elevation": "48-80 m",
+      "area": "250 x 250 m",
+      "role": "Root-wrapped pale arches, terraces and a ruined stair court. Vertical progression without a full castle.",
+      "beats": "Step and landing rhythm; two traversable arch openings; switchback fallback.",
+      "assets": "A03, A11-A16, A20-A26, A29-A35, A42"
+    },
+    {
+      "id": "Z5",
+      "name": "Heartwood Crossing",
+      "x": 80,
+      "z": 10,
+      "elevation": "34-64 m",
+      "area": "250 x 240 m",
+      "role": "Central giant tree landmark and route interchange. See three destinations without dense canopy hiding them.",
+      "beats": "Broad tree-root ring; grounded route anchor; two local return links.",
+      "assets": "A12, A14-A16, A20-A21, A28-A35, A46-A49"
+    },
+    {
+      "id": "Z6",
+      "name": "Canopy Ridge",
+      "x": 260,
+      "z": -255,
+      "elevation": "72-110 m",
+      "area": "300 x 250 m",
+      "role": "High stone-and-root ridge with tree crowns beside the route, not a thin branch maze.",
+      "beats": "Two shelf ascents; visible launch and landing pairs; canopy overlook.",
+      "assets": "A03-A04, A10-A16, A20-A23, A28-A35, A47"
+    },
+    {
+      "id": "Z7",
+      "name": "River Cliffs",
+      "x": 355,
+      "z": 100,
+      "elevation": "22-96 m",
+      "area": "240 x 360 m",
+      "role": "Eastern gorge with waterfall and wide long-glide landings. Highest speed and strongest recovery needs.",
+      "beats": "Three staged glides; two bounded wind columns; lower riverbank return.",
+      "assets": "A03-A07, A12-A19, A23, A27, A36-A38, A47-A50"
+    },
+    {
+      "id": "Z8",
+      "name": "Windcrown",
+      "x": 5,
+      "z": -365,
+      "elevation": "104-128 m",
+      "area": "280 x 180 m",
+      "role": "Northern summit, single hero arch and long woodland vista. End of the high circuit, not a separate biome.",
+      "beats": "Summit approach; broad rest terrace; controlled descent toward canopy.",
+      "assets": "A03-A04, A12-A16, A24-A26, A30-A35, A47-A49"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R1",
+      "name": "Forest Floor",
+      "sequence": "Z1 > Z2 > Z3 > Z5 > Z1",
+      "length": "~1,400-1,700 m",
+      "beats": "7 anchors; 2 optional gaps; 1 optional wind lift",
+      "time": "7-11 min first pass; walkable primary route"
+    },
+    {
+      "id": "R2",
+      "name": "Canopy Ridge",
+      "sequence": "Z5 > Z4 > Z8 > Z6 > Z5",
+      "length": "~1,300-1,600 m",
+      "beats": "9 anchors; 6 leap/glide beats; 2 lifts",
+      "time": "7-11 min first pass; ascent and broad landings"
+    },
+    {
+      "id": "R3",
+      "name": "River Cliffs",
+      "sequence": "Z5 > Z6 > Z7 > Z3 > Z5",
+      "length": "~1,500-1,800 m",
+      "beats": "8 anchors; 3 signature glides; 3 lifts",
+      "time": "8-12 min first pass; high and low return routes"
+    },
+    {
+      "id": "R4",
+      "name": "Great Woodland Expedition",
+      "sequence": "Z1 > Z2 > Z4 > Z8 > Z6 > Z7 > Z3 > Z5 > Z1",
+      "length": "~2,900-3,400 m",
+      "beats": "16 ordered anchors chosen from the same 24; no new geometry",
+      "time": "14-22 min first exploration; practice time excluded"
+    }
+  ]
+}

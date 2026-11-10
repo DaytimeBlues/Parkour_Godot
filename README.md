@@ -46,3 +46,7 @@ Open `http://127.0.0.1:49236/index.html`. The server and relay are loopback-only
 ## Rights and provenance
 
 No new open-source licence is granted by this import. Project-owned files retain their existing rights. Third-party libraries retain their own licences. Separate fox animation research assets with unresolved release clearance are not included. See [asset and publication notes](docs/PUBLICATION.md).
+
+## Great Woodland map proposal
+
+See the [eight-zone map plan and 72-item asset register](docs/woodland/README.md). This is a planning proposal for a larger connected woodland, not an implemented expansion or a runtime release. Existing game files are unchanged.
